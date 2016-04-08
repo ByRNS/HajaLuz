@@ -49,6 +49,13 @@ namespace App1
 			};
         }
 
+		public override bool OnCreateOptionsMenu (IMenu menu)
+		{
+			MenuInflater mi = new MenuInflater (this);
+			mi.Inflate (Resource.Menu.menu1, menu);
+			return true;
+		}
+
 		public void MostraDadosDigitados(string pNome, string pSenha, RadioGroup pRadioGroup)
 		{
 			string sexo = "";

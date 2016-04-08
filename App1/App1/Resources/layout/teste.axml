@@ -74,11 +74,11 @@
             android:layout_height="wrap_content"
             android:id="@+id/scrollView1">
             <TextView
+                style="@style/texto"
                 android:text="Text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/tvLista"
-                android:gravity="center_horizontal" />
+                android:id="@+id/tvLista" />
         </ScrollView>
     </LinearLayout>
 </LinearLayout>

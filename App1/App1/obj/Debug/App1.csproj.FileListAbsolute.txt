@@ -13,3 +13,20 @@ C:\Users\User\Documents\Visual Studio 2015\Projects\App1\App1\obj\Debug\R.cs.fla
 C:\Users\User\Documents\Visual Studio 2015\Projects\App1\App1\obj\Debug\uploadflags.txt
 C:\Users\User\Documents\Visual Studio 2015\Projects\App1\App1\obj\Debug\App1.dll.mdb
 C:\Users\User\Documents\Visual Studio 2015\Projects\App1\App1\bin\Debug\App1.dll.mdb
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\App1\App1\bin\Debug\App1.dll
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\App1\App1\bin\Debug\App1.pdb
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\App1\App1\bin\Debug\App1.App1.apk
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\App1\App1\bin\Debug\App1.App1-Signed.apk
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\App1\App1\obj\Debug\App1.dll
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\App1\App1\obj\Debug\App1.pdb
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\App1\App1\obj\Debug\android\bin\App1.App1.apk
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\App1\App1\obj\Debug\res\layout\main.xml
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\App1\App1\obj\Debug\res\layout\teste.xml
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\App1\App1\obj\Debug\res\menu\menu1.xml
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\App1\App1\obj\Debug\res\values\style.xml
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\App1\App1\obj\Debug\res\values\strings.xml
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\App1\App1\obj\Debug\res\drawable\icon.png
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\App1\App1\obj\Debug\R.cs.flag
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\App1\App1\obj\Debug\uploadflags.txt
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\App1\App1\obj\Debug\App1.dll.mdb
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\App1\App1\bin\Debug\App1.dll.mdb

@@ -84,6 +84,29 @@ namespace App1
 			builder.SetPositiveButton("OK", delegate { Finish(); });
 			builder.Show();
         }
+
+		public override bool OnCreateOptionsMenu (IMenu menu)
+		{
+			MenuInflater mi = new MenuInflater (this);
+			mi.Inflate (Resource.Menu.menu1, menu);
+			return true;
+		}
+
+		public override bool OnMenuItemSelected (int featureId, IMenuItem item)
+		{
+			switch (item.ItemId) 
+			{
+			case Resource.Id.item1:
+				Toast.MakeText (this, "Item 1", ToastLength.Long).Show ();
+				break;
+			case Resource.Id.item2:
+				Toast.MakeText (this, "Item 2", ToastLength.Long).Show ();
+				break;
+			default:
+				break;
+			}
+			return true;
+		}
     }
 }
 
