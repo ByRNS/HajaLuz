@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btnClickDelegate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnClickDelegate"
+        android:textColor="@android:color/holo_blue_bright" />
+    <Button
+        android:id="@+id/btnOnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnOnClick"
+        android:onClick="MetodoContador"
+        android:textColor="@android:color/holo_orange_dark" />
+    <Button
+        android:id="@+id/btnClickEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnClickEvent" />
+    <Button
+        android:id="@+id/btnFormulario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnFormulario"
+        android:onClick="AbrirFormulario" />
+</LinearLayout>

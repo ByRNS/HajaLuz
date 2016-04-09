@@ -1,0 +1,45 @@
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\bin\Debug\EstudandoAndroid.dll
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\bin\Debug\EstudandoAndroid.pdb
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\bin\Debug\br.com.ronildosouza.estudando_android.apk
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\bin\Debug\br.com.ronildosouza.estudando_android-Signed.apk
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\bin\Debug\Xamarin.Android.Support.v13.dll
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\bin\Debug\Xamarin.Android.Support.v4.dll
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\EstudandoAndroid.dll
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\EstudandoAndroid.pdb
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\android\bin\br.com.ronildosouza.estudando_android.apk
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\layout\main.xml
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\values\strings.xml
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\mipmap-hdpi\icon.png
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\mipmap-mdpi\icon.png
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\mipmap-xhdpi\icon.png
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\mipmap-xxhdpi\icon.png
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\mipmap-xxxhdpi\icon.png
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\R.cs.flag
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\uploadflags.txt
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\EstudandoAndroid.dll.mdb
+E:\TEMP\Meus Exemplos\Meus Exemplos Android\EstudandoAndroid\EstudandoAndroid\bin\Debug\EstudandoAndroid.dll.mdb
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\bin\Debug\EstudandoAndroid.dll
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\bin\Debug\EstudandoAndroid.pdb
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\bin\Debug\br.com.ronildosouza.estudando_android.apk
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\bin\Debug\br.com.ronildosouza.estudando_android-Signed.apk
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\bin\Debug\Xamarin.Android.Support.v13.dll
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\bin\Debug\Xamarin.Android.Support.v4.dll
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\EstudandoAndroid.dll
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\EstudandoAndroid.pdb
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\android\bin\br.com.ronildosouza.estudando_android.apk
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\layout\main.xml
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\values\strings.xml
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\mipmap-hdpi\icon.png
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\mipmap-mdpi\icon.png
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\mipmap-xhdpi\icon.png
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\mipmap-xxhdpi\icon.png
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\mipmap-xxxhdpi\icon.png
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\mipmap-hdpi\icon1.png
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\layout\formulario.xml
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\R.cs.flag
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\uploadflags.txt
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\values\theme.xml
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\EstudandoAndroid.dll.mdb
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\bin\Debug\EstudandoAndroid.dll.mdb

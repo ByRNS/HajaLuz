@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Correndo\Correndo.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.479008a79dcb90fa" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Correndo\MainActivity.cs" Line="41" Column="71" />
+      <File FileName="Correndo\Resources\anim\move.xml" Line="9" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Correndo AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

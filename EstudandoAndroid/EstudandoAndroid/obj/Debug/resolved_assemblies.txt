@@ -1,0 +1,12 @@
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\assemblies\EstudandoAndroid.dll
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\assemblies\Mono.Android.dll
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\assemblies\Mono.Android.Export.dll
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\assemblies\mscorlib.dll
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\assemblies\System.Core.dll
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\assemblies\System.dll
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\assemblies\System.Xml.dll
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\assemblies\Xamarin.Android.Support.v13.dll
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\assemblies\Xamarin.Android.Support.v4.dll
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\assemblies\Xamarin.Android.Support.v7.AppCompat.dll
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\assemblies\System.Runtime.Serialization.dll
+E:\PROJETOS\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\assemblies\System.ServiceModel.Internals.dll
