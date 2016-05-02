@@ -858,10 +858,11 @@ containing a value of this type.
         public static int abc_split_action_bar_is_narrow=0x7f060002;
     }
     public static final class color {
-        public static int abc_search_url_text_holo=0x7f070003;
+        public static int abc_search_url_text_holo=0x7f070004;
         public static int abc_search_url_text_normal=0x7f070000;
         public static int abc_search_url_text_pressed=0x7f070002;
         public static int abc_search_url_text_selected=0x7f070001;
+        public static int theme_devicedefault_background=0x7f070003;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -1361,6 +1362,7 @@ containing a value of this type.
         /**  Base platform-dependent theme providing a light-themed activity. 
          */
         public static int Theme_Base_Light=0x7f0c007f;
+        public static int Theme_Custom=0x7f0c008b;
         /**  Styles in here can be extended for customisation in your application. Each utilises
          one of the Base styles. If Holo themes are available on the current platform version
          they will be used instead of the compat styles. 

@@ -23,14 +23,15 @@ namespace EstudandoAndroid
 
 			// CLICK POR DELEGATE
 			Button btnDelegate = FindViewById<Button> (Resource.Id.btnClickDelegate);
-			
-			btnDelegate.Click += delegate {
-				btnDelegate.Text = string.Format ("{0}º click por delegate", count1++);
-				UsandoToast("Cor do texto do botão clicado" + btnDelegate.SolidColor);
-			};
 
-			// CLICK POR EVENT
-			Button btnEvent = (Button)FindViewById (Resource.Id.btnClickEvent);
+            btnDelegate.Click += delegate
+            {
+                btnDelegate.Text = string.Format("{0}º click por delegate", count1++);
+                UsandoToast("Cor do texto do botão clicado" + btnDelegate.SolidColor);
+            };
+
+            // CLICK POR EVENT
+            Button btnEvent = (Button)FindViewById (Resource.Id.btnClickEvent);
 			btnEvent.Click += (object sender, EventArgs e) => {
 				btnEvent.Text = string.Format ("{0}º click por event", count2++);
 				UsandoToast("Cor do texto do botão clicado" + btnEvent.SolidColor);
