@@ -1471,8 +1471,8 @@ namespace EstudandoAndroid
 			// aapt resource value: 0x7f0c007f
 			public const int Theme_Base_Light = 2131492991;
 			
-			// aapt resource value: 0x7f0c008e
-			public const int Theme_Custom = 2131493006;
+			// aapt resource value: 0x7f0c008d
+			public const int Theme_Custom = 2131493005;
 			
 			// aapt resource value: 0x7f0c0000
 			public const int Widget_AppCompat_ActionBar = 2131492864;
@@ -1712,10 +1712,7 @@ namespace EstudandoAndroid
 			public const int btnDestroy = 2131493003;
 			
 			// aapt resource value: 0x7f0c008c
-			public const int margin10 = 2131493004;
-			
-			// aapt resource value: 0x7f0c008d
-			public const int texto = 2131493005;
+			public const int texto = 2131493004;
 			
 			static Style()
 			{

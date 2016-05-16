@@ -2,8 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    style="@style/margin10">
+    android:layout_height="match_parent">
     <Button
         style="@style/btnDestroy"
         android:id="@+id/btnDestroy"
@@ -29,7 +28,6 @@
         android:layout_height="wrap_content"
         android:text="@string/btnClickEvent" />
     <Button
-        android:background="@android:color/holo_blue_dark"
         android:id="@+id/btnFormulario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
