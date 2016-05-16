@@ -1378,7 +1378,7 @@ containing a value of this type.
         /**  Base platform-dependent theme providing a light-themed activity. 
          */
         public static final int Theme_Base_Light=0x7f0c007f;
-        public static final int Theme_Custom=0x7f0c008e;
+        public static final int Theme_Custom=0x7f0c008d;
         /**  Styles in here can be extended for customisation in your application. Each utilises
          one of the Base styles. If Holo themes are available on the current platform version
          they will be used instead of the compat styles. 
@@ -1479,8 +1479,11 @@ style name="Tema">
 	</style
          */
         public static final int btnDestroy=0x7f0c008b;
-        public static final int margin10=0x7f0c008c;
-        public static final int texto=0x7f0c008d;
+        /** style name="margin10">
+		<item name="android:layout_margin">10dp</item>
+	</style
+         */
+        public static final int texto=0x7f0c008c;
     }
     public static final class styleable {
         /**  ============================================ 
