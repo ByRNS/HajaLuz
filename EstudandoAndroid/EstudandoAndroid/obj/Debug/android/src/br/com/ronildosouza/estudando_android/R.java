@@ -1085,11 +1085,12 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f0a0025;
         public static final int always=0x7f0a000f;
         public static final int beginning=0x7f0a0016;
-        public static final int btnClickDelegate=0x7f0a0041;
-        public static final int btnClickEvent=0x7f0a0043;
-        public static final int btnFormulario=0x7f0a0044;
-        public static final int btnOnClick=0x7f0a0042;
-        public static final int btnSalvar=0x7f0a0040;
+        public static final int btnClickDelegate=0x7f0a0047;
+        public static final int btnClickEvent=0x7f0a0049;
+        public static final int btnDestroy=0x7f0a0046;
+        public static final int btnFormulario=0x7f0a004a;
+        public static final int btnOnClick=0x7f0a0048;
+        public static final int btnSalvar=0x7f0a0043;
         public static final int checkbox=0x7f0a002d;
         public static final int collapseActionView=0x7f0a0010;
         public static final int default_activity_button=0x7f0a0028;
@@ -1105,8 +1106,10 @@ containing a value of this type.
         public static final int icon=0x7f0a002a;
         public static final int ifRoom=0x7f0a0011;
         public static final int image=0x7f0a0027;
-        public static final int lblNome=0x7f0a003c;
-        public static final int lblTelefone=0x7f0a003e;
+        public static final int item1=0x7f0a004b;
+        public static final int item2=0x7f0a004c;
+        public static final int lblNome=0x7f0a003f;
+        public static final int lblTelefone=0x7f0a0041;
         public static final int listMode=0x7f0a0006;
         public static final int list_item=0x7f0a0029;
         public static final int middle=0x7f0a0018;
@@ -1116,6 +1119,10 @@ containing a value of this type.
         public static final int progress_circular=0x7f0a0004;
         public static final int progress_horizontal=0x7f0a0005;
         public static final int radio=0x7f0a002f;
+        public static final int radioGroup1=0x7f0a003c;
+        public static final int rbFeminino=0x7f0a003e;
+        public static final int rbMasculino=0x7f0a003d;
+        public static final int scrollView1=0x7f0a0044;
         public static final int search_badge=0x7f0a0032;
         public static final int search_bar=0x7f0a0031;
         public static final int search_button=0x7f0a0033;
@@ -1135,8 +1142,9 @@ containing a value of this type.
         public static final int tabMode=0x7f0a0008;
         public static final int title=0x7f0a002b;
         public static final int top_action_bar=0x7f0a0020;
-        public static final int txtNome=0x7f0a003d;
-        public static final int txtTelefone=0x7f0a003f;
+        public static final int tvLista=0x7f0a0045;
+        public static final int txtNome=0x7f0a0040;
+        public static final int txtTelefone=0x7f0a0042;
         public static final int up=0x7f0a0021;
         public static final int useLogo=0x7f0a000e;
         public static final int withText=0x7f0a0013;
@@ -1195,6 +1203,9 @@ containing a value of this type.
         public static final int main=0x7f040019;
         public static final int support_simple_spinner_dropdown_item=0x7f04001a;
     }
+    public static final class menu {
+        public static final int optionmenu=0x7f0d0000;
+    }
     public static final class mipmap {
         public static final int icon=0x7f030000;
         public static final int icon1=0x7f030001;
@@ -1241,17 +1252,22 @@ containing a value of this type.
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0b000b;
         public static final int app_name=0x7f0b000d;
+        public static final int btnClickDelegate=0x7f0b000f;
+        public static final int btnClickEvent=0x7f0b0011;
         /**  TEXTO DOS BUTTONS 
          */
-        public static final int btnClickDelegate=0x7f0b000e;
-        public static final int btnClickEvent=0x7f0b0010;
-        public static final int btnFormulario=0x7f0b0011;
-        public static final int btnOnClick=0x7f0b000f;
-        public static final int btnSalvar=0x7f0b0012;
+        public static final int btnDestroy=0x7f0b000e;
+        public static final int btnFormulario=0x7f0b0012;
+        public static final int btnOnClick=0x7f0b0010;
+        public static final int btnSalvar=0x7f0b0013;
         /** - TEXTO DOS TEXTVIEWS 
          */
-        public static final int lblNome=0x7f0b0013;
-        public static final int lblTelefone=0x7f0b0014;
+        public static final int lblNome=0x7f0b0014;
+        public static final int lblTelefone=0x7f0b0015;
+        public static final int rbFeminino=0x7f0b0017;
+        /** - TEXTO DOS RADIOBUTTONS 
+         */
+        public static final int rbMasculino=0x7f0b0016;
     }
     public static final class style {
         /**  Mimic text appearance in select_dialog_item.xml 
@@ -1362,7 +1378,7 @@ containing a value of this type.
         /**  Base platform-dependent theme providing a light-themed activity. 
          */
         public static final int Theme_Base_Light=0x7f0c007f;
-        public static final int Theme_Custom=0x7f0c008b;
+        public static final int Theme_Custom=0x7f0c008e;
         /**  Styles in here can be extended for customisation in your application. Each utilises
          one of the Base styles. If Holo themes are available on the current platform version
          they will be used instead of the compat styles. 
@@ -1457,6 +1473,14 @@ containing a value of this type.
         public static final int Widget_AppCompat_ProgressBar=0x7f0c000a;
         public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0c0009;
         public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0c0022;
+        /** parent="@android:style/Theme.Black"
+style name="Tema">
+		<item name="android:background">#FFFFFF</item>
+	</style
+         */
+        public static final int btnDestroy=0x7f0c008b;
+        public static final int margin10=0x7f0c008c;
+        public static final int texto=0x7f0c008d;
     }
     public static final class styleable {
         /**  ============================================ 

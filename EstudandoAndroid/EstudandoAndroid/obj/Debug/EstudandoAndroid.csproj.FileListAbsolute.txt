@@ -65,5 +65,8 @@ C:\Users\User\Documents\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Deb
 C:\Users\User\Documents\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\values\theme.xml
 C:\Users\User\Documents\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\R.cs.flag
 C:\Users\User\Documents\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\uploadflags.txt
+C:\Users\User\Documents\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\EstudandoAndroid.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\values\style.xml
+C:\Users\User\Documents\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\res\menu\optionmenu.xml
 C:\Users\User\Documents\GitHub\Android\EstudandoAndroid\EstudandoAndroid\obj\Debug\EstudandoAndroid.dll.mdb
 C:\Users\User\Documents\GitHub\Android\EstudandoAndroid\EstudandoAndroid\bin\Debug\EstudandoAndroid.dll.mdb

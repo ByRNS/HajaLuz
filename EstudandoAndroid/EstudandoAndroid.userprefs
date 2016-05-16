@@ -1,26 +1,11 @@
 ﻿<Properties StartupItem="EstudandoAndroid\EstudandoAndroid.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.479008a79dcb90fa" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EstudandoAndroid\FormularioActivity.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EstudandoAndroid\MainActivity.cs">
     <Files>
-      <File FileName="EstudandoAndroid\MainActivity.cs" Line="29" Column="73" />
+      <File FileName="EstudandoAndroid\MainActivity.cs" Line="61" Column="7" />
       <File FileName="EstudandoAndroid\FormularioActivity.cs" Line="16" Column="53" />
       <File FileName="EstudandoAndroid\Resources\values\theme.xml" Line="3" Column="27" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="EstudandoAndroid" expanded="True">
-            <Node name="EstudandoAndroid" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="layout" expanded="True" />
-                <Node name="values" expanded="True" />
-              </Node>
-              <Node name="FormularioActivity.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

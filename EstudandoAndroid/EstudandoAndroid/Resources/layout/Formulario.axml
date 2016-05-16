@@ -2,7 +2,28 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    style="@style/margin10">
+    <RadioGroup
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup1">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/rbMasculino"
+            android:id="@+id/rbMasculino" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rbFeminino"
+            android:id="@+id/rbFeminino" />
+    </RadioGroup>
     <TextView
         android:id="@+id/lblNome"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -31,4 +52,17 @@
         android:layout_height="wrap_content"
         android:text="@string/btnSalvar"
         android:onClick="MostrarRegistro" />
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1">
+        <TextView
+            style="@style/texto"
+            android:text="Text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tvLista" />
+    </ScrollView>
 </LinearLayout>

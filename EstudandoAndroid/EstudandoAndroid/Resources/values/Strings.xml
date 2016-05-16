@@ -3,6 +3,7 @@
 	<string name="app_name">Estudando Android</string>
 
 	<!-- TEXTO DOS BUTTONS -->
+	<string name="btnDestroy">DESTROY</string>
 	<string name="btnClickDelegate">Click por Delegate</string>
 	<string name="btnOnClick">Click por OnClick</string> 
 	<string name="btnClickEvent">Click por Evento</string> 
@@ -12,4 +13,8 @@
 	<!--- TEXTO DOS TEXTVIEWS -->
 	<string name="lblNome">Nome.:</string>
 	<string name="lblTelefone">Telefone.:</string>
+
+	<!--- TEXTO DOS RADIOBUTTONS -->
+	<string name="rbMasculino">Masculino</string>
+	<string name="rbFeminino">Feminino</string>
 </resources>
