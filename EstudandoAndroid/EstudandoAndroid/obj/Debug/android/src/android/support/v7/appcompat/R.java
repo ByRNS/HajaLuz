@@ -1085,11 +1085,12 @@ containing a value of this type.
         public static int activity_chooser_view_content=0x7f0a0025;
         public static int always=0x7f0a000f;
         public static int beginning=0x7f0a0016;
-        public static int btnClickDelegate=0x7f0a0041;
-        public static int btnClickEvent=0x7f0a0043;
-        public static int btnFormulario=0x7f0a0044;
-        public static int btnOnClick=0x7f0a0042;
-        public static int btnSalvar=0x7f0a0040;
+        public static int btnClickDelegate=0x7f0a0047;
+        public static int btnClickEvent=0x7f0a0049;
+        public static int btnDestroy=0x7f0a0046;
+        public static int btnFormulario=0x7f0a004a;
+        public static int btnOnClick=0x7f0a0048;
+        public static int btnSalvar=0x7f0a0043;
         public static int checkbox=0x7f0a002d;
         public static int collapseActionView=0x7f0a0010;
         public static int default_activity_button=0x7f0a0028;
@@ -1105,8 +1106,10 @@ containing a value of this type.
         public static int icon=0x7f0a002a;
         public static int ifRoom=0x7f0a0011;
         public static int image=0x7f0a0027;
-        public static int lblNome=0x7f0a003c;
-        public static int lblTelefone=0x7f0a003e;
+        public static int item1=0x7f0a004b;
+        public static int item2=0x7f0a004c;
+        public static int lblNome=0x7f0a003f;
+        public static int lblTelefone=0x7f0a0041;
         public static int listMode=0x7f0a0006;
         public static int list_item=0x7f0a0029;
         public static int middle=0x7f0a0018;
@@ -1116,6 +1119,10 @@ containing a value of this type.
         public static int progress_circular=0x7f0a0004;
         public static int progress_horizontal=0x7f0a0005;
         public static int radio=0x7f0a002f;
+        public static int radioGroup1=0x7f0a003c;
+        public static int rbFeminino=0x7f0a003e;
+        public static int rbMasculino=0x7f0a003d;
+        public static int scrollView1=0x7f0a0044;
         public static int search_badge=0x7f0a0032;
         public static int search_bar=0x7f0a0031;
         public static int search_button=0x7f0a0033;
@@ -1135,8 +1142,9 @@ containing a value of this type.
         public static int tabMode=0x7f0a0008;
         public static int title=0x7f0a002b;
         public static int top_action_bar=0x7f0a0020;
-        public static int txtNome=0x7f0a003d;
-        public static int txtTelefone=0x7f0a003f;
+        public static int tvLista=0x7f0a0045;
+        public static int txtNome=0x7f0a0040;
+        public static int txtTelefone=0x7f0a0042;
         public static int up=0x7f0a0021;
         public static int useLogo=0x7f0a000e;
         public static int withText=0x7f0a0013;
@@ -1195,6 +1203,9 @@ containing a value of this type.
         public static int main=0x7f040019;
         public static int support_simple_spinner_dropdown_item=0x7f04001a;
     }
+    public static final class menu {
+        public static int optionmenu=0x7f0d0000;
+    }
     public static final class mipmap {
         public static int icon=0x7f030000;
         public static int icon1=0x7f030001;
@@ -1241,17 +1252,22 @@ containing a value of this type.
          */
         public static int abc_shareactionprovider_share_with_application=0x7f0b000b;
         public static int app_name=0x7f0b000d;
+        public static int btnClickDelegate=0x7f0b000f;
+        public static int btnClickEvent=0x7f0b0011;
         /**  TEXTO DOS BUTTONS 
          */
-        public static int btnClickDelegate=0x7f0b000e;
-        public static int btnClickEvent=0x7f0b0010;
-        public static int btnFormulario=0x7f0b0011;
-        public static int btnOnClick=0x7f0b000f;
-        public static int btnSalvar=0x7f0b0012;
+        public static int btnDestroy=0x7f0b000e;
+        public static int btnFormulario=0x7f0b0012;
+        public static int btnOnClick=0x7f0b0010;
+        public static int btnSalvar=0x7f0b0013;
         /** - TEXTO DOS TEXTVIEWS 
          */
-        public static int lblNome=0x7f0b0013;
-        public static int lblTelefone=0x7f0b0014;
+        public static int lblNome=0x7f0b0014;
+        public static int lblTelefone=0x7f0b0015;
+        public static int rbFeminino=0x7f0b0017;
+        /** - TEXTO DOS RADIOBUTTONS 
+         */
+        public static int rbMasculino=0x7f0b0016;
     }
     public static final class style {
         /**  Mimic text appearance in select_dialog_item.xml 
@@ -1362,7 +1378,7 @@ containing a value of this type.
         /**  Base platform-dependent theme providing a light-themed activity. 
          */
         public static int Theme_Base_Light=0x7f0c007f;
-        public static int Theme_Custom=0x7f0c008b;
+        public static int Theme_Custom=0x7f0c008e;
         /**  Styles in here can be extended for customisation in your application. Each utilises
          one of the Base styles. If Holo themes are available on the current platform version
          they will be used instead of the compat styles. 
@@ -1457,6 +1473,14 @@ containing a value of this type.
         public static int Widget_AppCompat_ProgressBar=0x7f0c000a;
         public static int Widget_AppCompat_ProgressBar_Horizontal=0x7f0c0009;
         public static int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0c0022;
+        /** parent="@android:style/Theme.Black"
+style name="Tema">
+		<item name="android:background">#FFFFFF</item>
+	</style
+         */
+        public static int btnDestroy=0x7f0c008b;
+        public static int margin10=0x7f0c008c;
+        public static int texto=0x7f0c008d;
     }
     public static final class styleable {
         /**  ============================================ 

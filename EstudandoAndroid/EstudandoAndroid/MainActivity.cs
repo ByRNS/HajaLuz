@@ -55,7 +55,7 @@ namespace EstudandoAndroid
 		}
 
 		/// <summary>
-		/// Usandos the toast.
+		/// Cria um Toast com o texto especificado no parametro.
 		/// </summary>
 		/// <returns>The toast.</returns>
 		/// <param name="msg">Message.</param>
