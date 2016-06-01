@@ -871,6 +871,15 @@ namespace EstudandoAndroid
 			// aapt resource value: 0x7f0a0048
 			public const int btnOnClick = 2131361864;
 			
+			// aapt resource value: 0x7f0a004d
+			public const int btnProgressDet = 2131361869;
+			
+			// aapt resource value: 0x7f0a004b
+			public const int btnProgressDialog = 2131361867;
+			
+			// aapt resource value: 0x7f0a004c
+			public const int btnProgressInd = 2131361868;
+			
 			// aapt resource value: 0x7f0a0043
 			public const int btnSalvar = 2131361859;
 			
@@ -919,11 +928,11 @@ namespace EstudandoAndroid
 			// aapt resource value: 0x7f0a0027
 			public const int image = 2131361831;
 			
-			// aapt resource value: 0x7f0a004b
-			public const int item1 = 2131361867;
+			// aapt resource value: 0x7f0a004e
+			public const int item1 = 2131361870;
 			
-			// aapt resource value: 0x7f0a004c
-			public const int item2 = 2131361868;
+			// aapt resource value: 0x7f0a004f
+			public const int item2 = 2131361871;
 			
 			// aapt resource value: 0x7f0a003f
 			public const int lblNome = 2131361855;
@@ -1153,7 +1162,10 @@ namespace EstudandoAndroid
 			public const int Main = 2130968601;
 			
 			// aapt resource value: 0x7f04001a
-			public const int support_simple_spinner_dropdown_item = 2130968602;
+			public const int ProgressDialog = 2130968602;
+			
+			// aapt resource value: 0x7f04001b
+			public const int support_simple_spinner_dropdown_item = 2130968603;
 			
 			static Layout()
 			{
@@ -1260,20 +1272,29 @@ namespace EstudandoAndroid
 			// aapt resource value: 0x7f0b0010
 			public const int btnOnClick = 2131427344;
 			
+			// aapt resource value: 0x7f0b0016
+			public const int btnProgressDet = 2131427350;
+			
+			// aapt resource value: 0x7f0b0015
+			public const int btnProgressInd = 2131427349;
+			
 			// aapt resource value: 0x7f0b0013
 			public const int btnSalvar = 2131427347;
 			
-			// aapt resource value: 0x7f0b0014
-			public const int lblNome = 2131427348;
-			
-			// aapt resource value: 0x7f0b0015
-			public const int lblTelefone = 2131427349;
-			
 			// aapt resource value: 0x7f0b0017
-			public const int rbFeminino = 2131427351;
+			public const int lblNome = 2131427351;
 			
-			// aapt resource value: 0x7f0b0016
-			public const int rbMasculino = 2131427350;
+			// aapt resource value: 0x7f0b0018
+			public const int lblTelefone = 2131427352;
+			
+			// aapt resource value: 0x7f0b0014
+			public const int progressDialog = 2131427348;
+			
+			// aapt resource value: 0x7f0b001a
+			public const int rbFeminino = 2131427354;
+			
+			// aapt resource value: 0x7f0b0019
+			public const int rbMasculino = 2131427353;
 			
 			static String()
 			{

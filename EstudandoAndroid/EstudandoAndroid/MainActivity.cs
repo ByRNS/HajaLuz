@@ -41,6 +41,12 @@ namespace EstudandoAndroid
 				btnEvent.Text = string.Format ("{0}º click por event", count2++);
 				UsandoToast("BOTÃO EVENT");
 			};
+
+			// PROGRESS DIALOG
+			Button btnProgress = FindViewById<Button>(Resource.Id.btnProgressDialog);
+			btnProgress.Click += delegate {
+				StartActivity(new Intent(this, typeof(ProgressDialogActivity)));
+			};
 		}
 
 		// CLICK POR ONCLICK

@@ -33,4 +33,9 @@
         android:layout_height="wrap_content"
         android:text="@string/btnFormulario"
         android:onClick="AbrirFormulario" />
+	<Button
+        android:id="@+id/btnProgressDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/progressDialog" />
 </LinearLayout>

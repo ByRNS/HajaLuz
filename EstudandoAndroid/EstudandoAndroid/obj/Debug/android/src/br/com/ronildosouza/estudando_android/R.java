@@ -1090,6 +1090,9 @@ containing a value of this type.
         public static final int btnDestroy=0x7f0a0046;
         public static final int btnFormulario=0x7f0a004a;
         public static final int btnOnClick=0x7f0a0048;
+        public static final int btnProgressDet=0x7f0a004d;
+        public static final int btnProgressDialog=0x7f0a004b;
+        public static final int btnProgressInd=0x7f0a004c;
         public static final int btnSalvar=0x7f0a0043;
         public static final int checkbox=0x7f0a002d;
         public static final int collapseActionView=0x7f0a0010;
@@ -1106,8 +1109,8 @@ containing a value of this type.
         public static final int icon=0x7f0a002a;
         public static final int ifRoom=0x7f0a0011;
         public static final int image=0x7f0a0027;
-        public static final int item1=0x7f0a004b;
-        public static final int item2=0x7f0a004c;
+        public static final int item1=0x7f0a004e;
+        public static final int item2=0x7f0a004f;
         public static final int lblNome=0x7f0a003f;
         public static final int lblTelefone=0x7f0a0041;
         public static final int listMode=0x7f0a0006;
@@ -1201,7 +1204,8 @@ containing a value of this type.
         public static final int abc_simple_decor=0x7f040017;
         public static final int formulario=0x7f040018;
         public static final int main=0x7f040019;
-        public static final int support_simple_spinner_dropdown_item=0x7f04001a;
+        public static final int progressdialog=0x7f04001a;
+        public static final int support_simple_spinner_dropdown_item=0x7f04001b;
     }
     public static final class menu {
         public static final int optionmenu=0x7f0d0000;
@@ -1259,15 +1263,18 @@ containing a value of this type.
         public static final int btnDestroy=0x7f0b000e;
         public static final int btnFormulario=0x7f0b0012;
         public static final int btnOnClick=0x7f0b0010;
+        public static final int btnProgressDet=0x7f0b0016;
+        public static final int btnProgressInd=0x7f0b0015;
         public static final int btnSalvar=0x7f0b0013;
         /** - TEXTO DOS TEXTVIEWS 
          */
-        public static final int lblNome=0x7f0b0014;
-        public static final int lblTelefone=0x7f0b0015;
-        public static final int rbFeminino=0x7f0b0017;
+        public static final int lblNome=0x7f0b0017;
+        public static final int lblTelefone=0x7f0b0018;
+        public static final int progressDialog=0x7f0b0014;
+        public static final int rbFeminino=0x7f0b001a;
         /** - TEXTO DOS RADIOBUTTONS 
          */
-        public static final int rbMasculino=0x7f0b0016;
+        public static final int rbMasculino=0x7f0b0019;
     }
     public static final class style {
         /**  Mimic text appearance in select_dialog_item.xml 

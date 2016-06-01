@@ -58,6 +58,7 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FormularioActivity.cs" />
+    <Compile Include="ProgressDialogActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -78,6 +79,7 @@
     <AndroidResource Include="Resources\values\theme.xml" />
     <AndroidResource Include="Resources\values\style.xml" />
     <AndroidResource Include="Resources\menu\optionMenu.xml" />
+    <AndroidResource Include="Resources\layout\ProgressDialog.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

@@ -9,7 +9,10 @@
 	<string name="btnClickEvent">Click por Evento</string> 
 	<string name="btnFormulario"> Abrir Formulário</string>
 	<string name="btnSalvar">Salvar</string>
-
+	<string name="progressDialog">ProgressDialog</string>
+	<string name="btnProgressInd">Progress Com Tempo Indeterminado</string>
+	<string name="btnProgressDet">Progress Com Tempo Determinado</string>
+	
 	<!--- TEXTO DOS TEXTVIEWS -->
 	<string name="lblNome">Nome.:</string>
 	<string name="lblTelefone">Telefone.:</string>
