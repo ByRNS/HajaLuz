@@ -27,7 +27,11 @@ public class MonoPackageManager {
 						android.content.Intent.ACTION_TIMEZONE_CHANGED
 				);
 				context.registerReceiver (new mono.android.app.NotifyTimeZoneChanges (), timezoneChangedFilter);
+<<<<<<< HEAD
 				setContext (context);
+=======
+				Context = context;
+>>>>>>> origin/master
 				
 				System.loadLibrary("monodroid");
 				Locale locale       = Locale.getDefault ();
@@ -60,6 +64,7 @@ public class MonoPackageManager {
 		}
 	}
 
+<<<<<<< HEAD
 	public static void setContext (Context context)
 	{
 		if (Context == null) {
@@ -67,6 +72,8 @@ public class MonoPackageManager {
 		}
 	}
 
+=======
+>>>>>>> origin/master
 	static String getNativeLibraryPath (Context context)
 	{
 	    return getNativeLibraryPath (context.getApplicationInfo ());

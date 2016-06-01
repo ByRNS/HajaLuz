@@ -814,6 +814,9 @@ namespace EstudandoAndroid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f0a004d
+			public const int SubMenu = 2131361869;
+			
 			// aapt resource value: 0x7f0a001c
 			public const int action_bar = 2131361820;
 			

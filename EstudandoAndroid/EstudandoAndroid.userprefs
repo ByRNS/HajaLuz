@@ -1,6 +1,7 @@
-﻿<Properties StartupItem="EstudandoAndroid\EstudandoAndroid.csproj">
+﻿<Properties GitUserInfo="UsingGIT" StartupItem="EstudandoAndroid\EstudandoAndroid.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+<<<<<<< HEAD
   <MonoDevelop.Ide.ItemProperties.EstudandoAndroid PreferredExecutionTarget="Android.169.254.220.177:5555" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
@@ -9,6 +10,15 @@
     <Files>
       <File FileName="EstudandoAndroid\ProgressDialogActivity.cs" Line="57" Column="5" />
       <File FileName="EstudandoAndroid\Resources\layout\ProgressDialog.axml" Line="1" Column="1" />
+=======
+  <MonoDevelop.Ide.ItemProperties.EstudandoAndroid AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Custom" PreferredExecutionTarget="Android.4&quot; JellyBean (4.2) HDPI Phone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EstudandoAndroid\MainActivity.cs">
+    <Files>
+      <File FileName="EstudandoAndroid\MainActivity.cs" Line="116" Column="25" />
+      <File FileName="EstudandoAndroid\FormularioActivity.cs" Line="1" Column="1" />
+      <File FileName="EstudandoAndroid\Resources\values\Strings.xml" Line="1" Column="1" />
+>>>>>>> origin/master
     </Files>
   </MonoDevelop.Ide.Workbench>
 </Properties>
