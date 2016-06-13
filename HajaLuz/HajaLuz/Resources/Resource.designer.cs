@@ -77,7 +77,7 @@ namespace HajaLuz
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int haja_luz = 2130837504;
 			
 			static Mipmap()
 			{
@@ -94,6 +94,9 @@ namespace HajaLuz
 			
 			// aapt resource value: 0x7f040000
 			public const int app_name = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int by_rns = 2130968577;
 			
 			static String()
 			{

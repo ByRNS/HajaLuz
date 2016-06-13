@@ -1,13 +1,14 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupItem="HajaLuz\HajaLuz.csproj">
-  <MonoDevelop.Ide.ItemProperties.HajaLuz AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Black.NoTitleBar" PreferredExecutionTarget="Android.4&quot; JellyBean (4.2) HDPI Phone" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.HajaLuz AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Black.NoTitleBar" PreferredExecutionTarget="Android.479008a79dcb90fa" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="HajaLuz\MainActivity.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="HajaLuz\MainActivity.cs" Line="41" Column="39" />
+      <File FileName="HajaLuz\MainActivity.cs" Line="67" Column="47" />
+      <File FileName="HajaLuz\Resources\values\Strings.xml" Line="4" Column="39" />
     </Files>
   </MonoDevelop.Ide.Workbench>
 </Properties>
