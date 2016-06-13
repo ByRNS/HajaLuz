@@ -1,0 +1,4 @@
+HajaLuz.MainActivity, HajaLuz;md57c6c77da09dafb3f260e6afbc64f24ee.MainActivity
+HajaLuz.MainActivity, HajaLuz, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md57c6c77da09dafb3f260e6afbc64f24ee.MainActivity
+HajaLuz.MainActivity;md57c6c77da09dafb3f260e6afbc64f24ee.MainActivity
+hajaluz.MainActivity;md57c6c77da09dafb3f260e6afbc64f24ee.MainActivity
