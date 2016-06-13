@@ -5,7 +5,7 @@ using System;
 using AH = Android.Hardware;
 using Android.Content.PM;
 using Android.Graphics;
-using Android.Content.Res;
+using Android.Views;
 
 namespace HajaLuz
 {
@@ -18,6 +18,7 @@ namespace HajaLuz
 		ToggleButton tbtInterruptor;
 		AH.Camera camera;
 		AH.Camera.Parameters parametros;
+		Color black = new Color(0, 0, 0);
 		
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
@@ -37,8 +38,9 @@ namespace HajaLuz
 
 			if (toggleDoSender.Checked)
 			{
-				corTexto = new Color(0, 0, 0);
+				corTexto = black;
 				corBackground = new Color(108, 211, 146);
+				MudarCor(corTexto, corBackground, toggleDoSender);
 
 				camera = AH.Camera.Open();
 				parametros = camera.GetParameters();
@@ -46,22 +48,23 @@ namespace HajaLuz
 				parametros.FlashMode = AH.Camera.Parameters.FlashModeTorch;
 				camera.SetParameters(parametros);
 				camera.StartPreview();
-
-				toggleDoSender.SetTextColor(corTexto);
-				toggleDoSender.SetBackgroundColor(corBackground);
 			}
 			else
 			{
 				corTexto = new Color(255, 255, 255);
-				corBackground = new Color(0, 0, 0);
+				corBackground = black;
+				MudarCor(corTexto, corBackground, toggleDoSender);
 
 				camera.StopPreview();
 				camera.Release();
 				camera = null;
-
-				toggleDoSender.SetTextColor(corTexto);
-				toggleDoSender.SetBackgroundColor(corBackground);
 			}
+		}
+
+		private void MudarCor(Color texto, Color backgroud, ToggleButton toggleButton)
+		{
+			toggleButton.SetTextColor(texto);
+			toggleButton.SetBackgroundColor(backgroud);
 		}
 	}
 #pragma warning restore CS0618 // Classe Camera e obsoleta
