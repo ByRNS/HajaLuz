@@ -1,0 +1,9 @@
+C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\android\assets\HajaLuz.dll
+C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\android\assets\Java.Interop.dll
+C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\android\assets\Mono.Android.dll
+C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\android\assets\System.Core.dll
+C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\android\assets\System.dll
+C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\android\assets\System.Xml.dll
+C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\android\assets\mscorlib.dll
+C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\android\assets\System.Runtime.Serialization.dll
+C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\android\assets\System.ServiceModel.Internals.dll
