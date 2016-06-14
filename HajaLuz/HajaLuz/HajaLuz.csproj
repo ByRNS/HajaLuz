@@ -16,6 +16,9 @@
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
+    <Description>Aplicação para utilizar o flash da câmera do aparelho como lanterna.</Description>
+    <CodePage>65001</CodePage>
+    <ReleaseVersion>1.0</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -35,6 +38,12 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AndroidSupportedAbis>armeabi-v7a;x86</AndroidSupportedAbis>
+    <AndroidKeyStore>True</AndroidKeyStore>
+    <AndroidSigningKeyStore>C:\Users\User\AppData\Local\Xamarin\Mono for Android\Keystore\ronildosouza\ronildosouza.keystore</AndroidSigningKeyStore>
+    <AndroidSigningStorePass>@dsouza123</AndroidSigningStorePass>
+    <AndroidSigningKeyAlias>RonildoSouza</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>@dsouza123</AndroidSigningKeyPass>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -60,6 +69,7 @@
     <AndroidResource Include="Resources\mipmap-xhdpi\haja_luz.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\haja_luz.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\haja_luz.png" />
+    <AndroidResource Include="Resources\values\Color.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

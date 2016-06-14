@@ -5,32 +5,32 @@ using System;
 using AH = Android.Hardware;
 using Android.Content.PM;
 using Android.Graphics;
-using Android.Views;
+using Android.Content.Res;
 
 namespace HajaLuz
 {
-#pragma warning disable CS0618 // Classe Camera e obsoleta
+#pragma warning disable CS0618 // Classe Camera e obsoleta para API 21 acima
 	[Activity(
 		MainLauncher = true, 
 		ScreenOrientation = ScreenOrientation.Portrait)]
 	public class MainActivity : Activity
 	{
-		ToggleButton tbtInterruptor;
 		AH.Camera camera;
 		AH.Camera.Parameters parametros;
-		Color black = new Color(0, 0, 0);
+		TextView txvByRns;
 		
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
 			SetContentView(Resource.Layout.Main);
 
-			tbtInterruptor = FindViewById<ToggleButton>(Resource.Id.tbtInterruptor);
+			ToggleButton tbtInterruptor = FindViewById<ToggleButton>(Resource.Id.tbtInterruptor);
+			tbtInterruptor.Click += LigaDesliga;
 
-			tbtInterruptor.Click += Interruptor;
+			txvByRns = FindViewById<TextView>(Resource.Id.txvByRns);
 		}
 
-		public void Interruptor(object sender, EventArgs e)
+		public void LigaDesliga(object sender, EventArgs e)
 		{
 			var toggleDoSender = sender as ToggleButton;
 			Color corBackground;
@@ -38,8 +38,9 @@ namespace HajaLuz
 
 			if (toggleDoSender.Checked)
 			{
-				corTexto = black;
-				corBackground = new Color(108, 211, 146);
+				corTexto = Color.Black;
+				corBackground = Resources.GetColor(Resource.Color.GreenBackground);
+
 				MudarCor(corTexto, corBackground, toggleDoSender);
 
 				camera = AH.Camera.Open();
@@ -51,8 +52,9 @@ namespace HajaLuz
 			}
 			else
 			{
-				corTexto = new Color(255, 255, 255);
-				corBackground = black;
+				corTexto = Color.White;
+				corBackground = Resources.GetColor(Resource.Color.BlackBackground);
+
 				MudarCor(corTexto, corBackground, toggleDoSender);
 
 				camera.StopPreview();
@@ -65,9 +67,8 @@ namespace HajaLuz
 		{
 			toggleButton.SetTextColor(texto);
 			toggleButton.SetBackgroundColor(backgroud);
+			txvByRns.SetTextColor(texto);
 		}
 	}
-#pragma warning restore CS0618 // Classe Camera e obsoleta
+#pragma warning restore CS0618 // Classe Camera e obsoleta para API 21 acima
 }
-
-

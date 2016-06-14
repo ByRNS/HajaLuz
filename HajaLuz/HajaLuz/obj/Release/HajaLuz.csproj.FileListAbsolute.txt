@@ -1,6 +1,7 @@
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\bin\Release\HajaLuz.dll
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\bin\Release\br.com.ronildosouza.haja_luz.apk
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\bin\Release\br.com.ronildosouza.haja_luz-Signed.apk
+C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\HajaLuz.csprojResolveAssemblyReference.cache
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\HajaLuz.dll
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\android\bin\br.com.ronildosouza.haja_luz.apk
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\res\layout\main.xml
@@ -10,6 +11,7 @@ C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\res\mipmap-md
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\res\mipmap-xhdpi\haja_luz.png
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\res\mipmap-xxhdpi\haja_luz.png
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\res\mipmap-xxxhdpi\haja_luz.png
+C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\res\values\color.xml
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\R.cs.flag
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\uploadflags.txt
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\bin\Release\Java.Interop.dll.mdb
