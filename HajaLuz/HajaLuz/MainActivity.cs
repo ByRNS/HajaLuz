@@ -16,12 +16,8 @@ namespace HajaLuz
 	public class MainActivity : Activity
 	{
 		AH.Camera camera;
-		AH.Camera.Parameters parametros;
 		TextView txvByRns;
 		ToggleButton tbtInterruptor;
-
-		Color corBackground;
-		Color corTexto;
 		
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
@@ -38,55 +34,68 @@ namespace HajaLuz
 		{
 			base.OnStop();
 
-			if (camera != null)
-			{
-				Desliga();
-				tbtInterruptor.Checked = false;
-			}
+			//if (camera != null)
+				//DesligarFlash();
+
+			tbtInterruptor.Checked = false;
+			tbtInterruptor.CallOnClick();
 		}
 
 		public void LigaDesliga(object sender, EventArgs e)
 		{
+			var temFlash = PackageManager.HasSystemFeature(PackageManager.FeatureCameraFlash);
 			var toggleDoSender = (ToggleButton) sender;
+			var corBranca = Color.White;
+			Color _corBackground;
+			Color _corTexto;
 
 			if (toggleDoSender.Checked)
 			{
-				Liga();
+				if (temFlash)
+				{
+					LigarFlash();
+					
+					_corTexto = Color.Black;
+					_corBackground = Resources.GetColor(Resource.Color.GreenBackground);
+					MudarCorViews(_corTexto, _corBackground, tbtInterruptor);
+				}
+				else
+					MudarCorViews(corBranca, corBranca, tbtInterruptor);
 			}
 			else
 			{
-				Desliga();
+				if (camera != null && temFlash.Equals(true))
+					DesligarFlash();
+
+				_corTexto = Color.White;
+				_corBackground = Resources.GetColor(Resource.Color.BlackBackground);
+				MudarCorViews(_corTexto, _corBackground, tbtInterruptor);
 			}
 		}
 
-		private void MudarCor(Color texto, Color backgroud, ToggleButton toggleButton)
+		private void MudarCorViews(Color corTexto, Color corBackground, ToggleButton toggleButton)
 		{
-			toggleButton.SetTextColor(texto);
-			toggleButton.SetBackgroundColor(backgroud);
-			txvByRns.SetTextColor(texto);
+			toggleButton.SetTextColor(corTexto);
+			toggleButton.SetBackgroundColor(corBackground);
+			txvByRns.SetTextColor(corTexto);
 		}
 
-		private void Liga()
+		private void LigarFlash()
 		{
 			camera = AH.Camera.Open();
-			parametros = camera.GetParameters();
+			
+			var parametros = camera.GetParameters();
 			parametros.FlashMode = AH.Camera.Parameters.FlashModeTorch;
+			
 			camera.SetParameters(parametros);
 			camera.StartPreview();
-
-			corTexto = Color.Black;
-			corBackground = Resources.GetColor(Resource.Color.GreenBackground);
-			MudarCor(corTexto, corBackground, tbtInterruptor);
 		}
-		private void Desliga()
+
+		private void DesligarFlash()
 		{
 			camera.StopPreview();
 			camera.Release();
 			camera = null;
-
-			corTexto = Color.White;
-			corBackground = Resources.GetColor(Resource.Color.BlackBackground);
-			MudarCor(corTexto, corBackground, tbtInterruptor);
 		}
 	}
 #pragma warning restore CS0618 // Classe Camera e obsoleta para API 21 acima

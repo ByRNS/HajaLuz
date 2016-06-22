@@ -1,13 +1,14 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupItem="HajaLuz\HajaLuz.csproj">
-  <MonoDevelop.Ide.ItemProperties.HajaLuz AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Black.NoTitleBar" PreferredExecutionTarget="Android.Xamarin_Android_API_17" />
+  <MonoDevelop.Ide.ItemProperties.HajaLuz AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Black.NoTitleBar" PreferredExecutionTarget="Android.db1576e20384d3bd" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="HajaLuz\MainActivity.cs">
     <Files>
-      <File FileName="HajaLuz\MainActivity.cs" Line="80" Column="4" />
+      <File FileName="HajaLuz\MainActivity.cs" Line="80" Column="63" />
+      <File FileName="HajaLuz\Properties\AndroidManifest.xml" Line="8" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <AuthorInfo Name="Ronildo N. Souza" Email="ronildo_rns@hotmail.com" Copyright="Ronildo N. Souza" Company="RNS" Trademark="" />
