@@ -1,14 +1,15 @@
-﻿using Android.Content.PM;
+﻿using System;
+using Android.Content.PM;
 using Android.Hardware;
 
 namespace HajaLuz
 {
 	public class Flash
 	{
-		PackageManager packageManager;
+		PackageManager packageManager = (PackageManager)new Object();
 		Camera camera;
 
-		public bool HasFlash
+		public bool TemFlash
 		{
 			get
 			{
@@ -18,7 +19,7 @@ namespace HajaLuz
 
 		public bool Liga()
 		{
-			if (HasFlash)
+			if (TemFlash)
 			{
 				camera = Camera.Open();
 				
@@ -35,7 +36,7 @@ namespace HajaLuz
 
 		public void Desliga()
 		{
-			if (camera != null && HasFlash.Equals(true))
+			if (camera != null && TemFlash.Equals(true))
 			{
 				camera.StopPreview();
 				camera.Release();

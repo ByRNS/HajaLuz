@@ -13,7 +13,8 @@
         android:textColor="#fffafafa"
         android:background="@color/BlackBackground"
         android:textOff="@string/desligado"
-        android:textOn="@string/ligado" />
+        android:textOn="@string/ligado"
+        android:layout_marginTop="0.0dp" />
     <TextView
         android:id="@+id/txvByRns"
         android:layout_width="wrap_content"

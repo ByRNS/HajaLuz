@@ -8,7 +8,6 @@ using Android.Content.Res;
 
 namespace HajaLuz
 {
-#pragma warning disable CS0618 // Classe Camera e obsoleta para API 21 acima
 	[Activity(
 		MainLauncher = true, 
 		ScreenOrientation = ScreenOrientation.Portrait)]
@@ -43,7 +42,8 @@ namespace HajaLuz
 			base.OnStop();
 
 			tbtInterruptor.Checked = false;
-			tbtInterruptor.CallOnClick();
+			//tbtInterruptor.CallOnClick();
+			LigaDesliga(tbtInterruptor, new EventArgs());
 		}
 
 		public void LigaDesliga(object sender, EventArgs e)
@@ -56,9 +56,7 @@ namespace HajaLuz
 			if (toggleDoSender.Checked)
 			{
 				if (flashLigado)
-				{
 					corViews.MudarCor(Color.Black, colorGreenBackground, tbtInterruptor, txvByRns);
-				}
 				else
 					corViews.MudarCor(colorWhite, colorWhite, tbtInterruptor, txvByRns);
 			}
@@ -68,5 +66,4 @@ namespace HajaLuz
 			}
 		}
 	}
-#pragma warning restore CS0618 // Classe Camera e obsoleta para API 21 acima
 }

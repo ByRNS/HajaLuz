@@ -32,5 +32,4 @@ C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\android\asset
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\android\assets\System.Runtime.Serialization.dll.mdb
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\android\assets\System.Xml.dll.mdb
-C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\HajaLuz.dll.mdb
-C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\bin\Release\HajaLuz.dll.mdb
+C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Release\res\drawable\interruptor-completo-ligado.png
