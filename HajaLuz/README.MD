@@ -1,6 +1,6 @@
 <table>
 	<tr>
-		<td><img src="https://github.com/RonildoSouza/Android/blob/master/HajaLuz/icone/mdpi/haja_luz.png" /></td>
+		<td><img src="https://github.com/RonildoSouza/Android/blob/master/HajaLuz/Imagens/icone/mdpi/haja_luz.png" /></td>
 		<td><h4>Download da Aplicação</h4></td>
 	</tr>
 	<tr>
