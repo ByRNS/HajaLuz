@@ -44,11 +44,11 @@ namespace HajaLuz
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int BlackBackground = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int BlackBackground = 2131034113;
 			
-			// aapt resource value: 0x7f040000
-			public const int GreenBackground = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int GreenBackground = 2131034112;
 			
 			static Color()
 			{
@@ -60,14 +60,33 @@ namespace HajaLuz
 			}
 		}
 		
+		public partial class Drawable
+		{
+			
+			// aapt resource value: 0x7f020000
+			public const int interruptor_completo_ligado = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int interruptor_ligado = 2130837505;
+			
+			static Drawable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Drawable()
+			{
+			}
+		}
+		
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int tbtInterruptor = 2131099648;
+			// aapt resource value: 0x7f070000
+			public const int tbtInterruptor = 2131165184;
 			
-			// aapt resource value: 0x7f060001
-			public const int txvByRns = 2131099649;
+			// aapt resource value: 0x7f070001
+			public const int txvByRns = 2131165185;
 			
 			static Id()
 			{
@@ -82,8 +101,8 @@ namespace HajaLuz
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			// aapt resource value: 0x7f040000
+			public const int Main = 2130968576;
 			
 			static Layout()
 			{
@@ -98,8 +117,8 @@ namespace HajaLuz
 		public partial class Mipmap
 		{
 			
-			// aapt resource value: 0x7f020000
-			public const int haja_luz = 2130837504;
+			// aapt resource value: 0x7f030000
+			public const int haja_luz = 2130903040;
 			
 			static Mipmap()
 			{
@@ -114,17 +133,17 @@ namespace HajaLuz
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int app_name = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int app_name = 2131099648;
 			
-			// aapt resource value: 0x7f050003
-			public const int by_rns = 2131034115;
+			// aapt resource value: 0x7f060003
+			public const int by_rns = 2131099651;
 			
-			// aapt resource value: 0x7f050002
-			public const int desligado = 2131034114;
+			// aapt resource value: 0x7f060002
+			public const int desligado = 2131099650;
 			
-			// aapt resource value: 0x7f050001
-			public const int ligado = 2131034113;
+			// aapt resource value: 0x7f060001
+			public const int ligado = 2131099649;
 			
 			static String()
 			{

@@ -4,10 +4,15 @@ using Android.Hardware;
 
 namespace HajaLuz
 {
-	public class Flash
+	class Flash
 	{
-		PackageManager packageManager = (PackageManager)new Object();
+		PackageManager packageManager;
 		Camera camera;
+
+		public Flash(PackageManager packageManager)
+		{
+			this.packageManager = packageManager;
+		}
 
 		public bool TemFlash
 		{

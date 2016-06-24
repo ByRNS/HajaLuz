@@ -11,9 +11,9 @@
         android:layout_weight="6"
         android:textSize="40dp"
         android:textColor="#fffafafa"
-        android:background="@color/BlackBackground"
-        android:textOff="@string/desligado"
-        android:textOn="@string/ligado"
+        android:background="@drawable/interruptor_completo_ligado"
+        android:textOff=""
+        android:textOn=""
         android:layout_marginTop="0.0dp" />
     <TextView
         android:id="@+id/txvByRns"

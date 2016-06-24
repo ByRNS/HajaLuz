@@ -72,6 +72,8 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\haja_luz.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\haja_luz.png" />
     <AndroidResource Include="Resources\values\Color.axml" />
+    <AndroidResource Include="Resources\drawable\interruptor_completo_ligado.png" />
+    <AndroidResource Include="Resources\drawable\interruptor_ligado.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

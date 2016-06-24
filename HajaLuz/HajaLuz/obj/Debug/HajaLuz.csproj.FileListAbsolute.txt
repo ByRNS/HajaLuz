@@ -13,7 +13,6 @@ C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\res\mipmap-xhdp
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\res\mipmap-xxhdpi\haja_luz.png
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\res\mipmap-xxxhdpi\haja_luz.png
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\res\values\color.xml
-C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\res\drawable\interruptor-completo-ligado.png
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\R.cs.flag
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\uploadflags.txt
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\bin\Debug\HajaLuz.dll.mdb
@@ -38,3 +37,5 @@ C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\android\assets\
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\res\drawable\interruptor_completo_ligado.png
+C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\res\drawable\interruptor_ligado.png

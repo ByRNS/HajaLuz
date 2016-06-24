@@ -1,2 +1,5 @@
 Resolução S3mini.txt
 800x480
+
+
+adb uninstall br.com.ronildosouza.haja_luz

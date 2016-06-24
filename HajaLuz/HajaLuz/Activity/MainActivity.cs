@@ -26,10 +26,10 @@ namespace HajaLuz
 			base.OnCreate(savedInstanceState);
 			SetContentView(Resource.Layout.Main);
 
+			flash = new Flash(PackageManager);
+
 			colorGreenBackground = Resources.GetColor(Resource.Color.GreenBackground);
 			colorBlackBackground = Resources.GetColor(Resource.Color.BlackBackground);
-
-			flash = new Flash();
 
 			tbtInterruptor = FindViewById<ToggleButton>(Resource.Id.tbtInterruptor);
 			tbtInterruptor.Click += LigaDesliga;
@@ -42,26 +42,25 @@ namespace HajaLuz
 			base.OnStop();
 
 			tbtInterruptor.Checked = false;
-			//tbtInterruptor.CallOnClick();
-			LigaDesliga(tbtInterruptor, new EventArgs());
+			tbtInterruptor.CallOnClick();
 		}
 
 		public void LigaDesliga(object sender, EventArgs e)
 		{
-			bool flashLigado = flash.Liga();
 			var corViews = new CorViews();
 
 			var toggleDoSender = (ToggleButton) sender;
 
 			if (toggleDoSender.Checked)
 			{
-				if (flashLigado)
+				if (flash.Liga())
 					corViews.MudarCor(Color.Black, colorGreenBackground, tbtInterruptor, txvByRns);
 				else
 					corViews.MudarCor(colorWhite, colorWhite, tbtInterruptor, txvByRns);
 			}
 			else
 			{
+				flash.Desliga();
 				corViews.MudarCor(colorWhite, colorBlackBackground, tbtInterruptor, txvByRns);
 			}
 		}
