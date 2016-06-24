@@ -39,3 +39,7 @@ C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\android\assets\
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\res\drawable\interruptor_completo_ligado.png
 C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\res\drawable\interruptor_ligado.png
+C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\res\drawable\capa_interruptor_desligado.png.png
+C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\res\drawable\capa_interruptor_ligado.png
+C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\res\drawable\interruptor_completo_deligado.png
+C:\Users\User\Documents\GitHub\Android\HajaLuz\HajaLuz\obj\Debug\res\drawable\interruptor_desligado.png

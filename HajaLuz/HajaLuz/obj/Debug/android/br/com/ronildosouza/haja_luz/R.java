@@ -15,12 +15,16 @@ public final class R {
         public static final int GreenBackground=0x7f050000;
     }
     public static final class drawable {
-        public static final int interruptor_completo_ligado=0x7f020000;
-        public static final int interruptor_ligado=0x7f020001;
+        public static final int capa_interruptor_desligado=0x7f020000;
+        public static final int capa_interruptor_ligado=0x7f020001;
+        public static final int interruptor_completo_deligado=0x7f020002;
+        public static final int interruptor_completo_ligado=0x7f020003;
+        public static final int interruptor_desligado=0x7f020004;
+        public static final int interruptor_ligado=0x7f020005;
     }
     public static final class id {
-        public static final int tbtInterruptor=0x7f070000;
-        public static final int txvByRns=0x7f070001;
+        public static final int lnlBackground=0x7f070000;
+        public static final int tbtInterruptor=0x7f070001;
     }
     public static final class layout {
         public static final int main=0x7f040000;

@@ -1,10 +1,15 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupItem="HajaLuz\HajaLuz.csproj">
-  <MonoDevelop.Ide.ItemProperties.HajaLuz AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Black.NoTitleBar" PreferredExecutionTarget="Android.479008a79dcb90fa" />
+  <MonoDevelop.Ide.ItemProperties.HajaLuz AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Black.NoTitleBar" PreferredExecutionTarget="Android.db1576e20384d3bd" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="HajaLuz\Model\Background.cs" Line="18" Column="18" />
+      <File FileName="HajaLuz\Activity\MainActivity.cs" Line="6" Column="16" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <AuthorInfo Name="Ronildo N. Souza" Email="ronildo_rns@hotmail.com" Copyright="Ronildo N. Souza" Company="RNS" Trademark="" />
 </Properties>

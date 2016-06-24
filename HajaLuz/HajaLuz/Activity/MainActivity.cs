@@ -14,11 +14,8 @@ namespace HajaLuz
 	public class MainActivity : Activity
 	{
 		Flash flash;
-		readonly Color colorWhite = Color.White;
-		Color colorGreenBackground;
-		Color colorBlackBackground;
 
-		TextView txvByRns;
+		LinearLayout linearLayout;
 		ToggleButton tbtInterruptor;
 		
 		protected override void OnCreate(Bundle savedInstanceState)
@@ -28,13 +25,9 @@ namespace HajaLuz
 
 			flash = new Flash(PackageManager);
 
-			colorGreenBackground = Resources.GetColor(Resource.Color.GreenBackground);
-			colorBlackBackground = Resources.GetColor(Resource.Color.BlackBackground);
-
+			linearLayout = FindViewById<LinearLayout>(Resource.Id.lnlBackground);
 			tbtInterruptor = FindViewById<ToggleButton>(Resource.Id.tbtInterruptor);
 			tbtInterruptor.Click += LigaDesliga;
-
-			txvByRns = FindViewById<TextView>(Resource.Id.txvByRns);
 		}
 
 		protected override void OnStop()
@@ -47,21 +40,21 @@ namespace HajaLuz
 
 		public void LigaDesliga(object sender, EventArgs e)
 		{
-			var corViews = new CorViews();
+			var background = new Background(Resources);
 
 			var toggleDoSender = (ToggleButton) sender;
 
 			if (toggleDoSender.Checked)
 			{
 				if (flash.Liga())
-					corViews.MudarCor(Color.Black, colorGreenBackground, tbtInterruptor, txvByRns);
+					background.ImagemInterruptorLigado(linearLayout, tbtInterruptor);
 				else
-					corViews.MudarCor(colorWhite, colorWhite, tbtInterruptor, txvByRns);
+					background.MudarCor(linearLayout, tbtInterruptor);
 			}
 			else
 			{
 				flash.Desliga();
-				corViews.MudarCor(colorWhite, colorBlackBackground, tbtInterruptor, txvByRns);
+				background.ImagemInterruptorDesligado(linearLayout, tbtInterruptor);
 			}
 		}
 	}
