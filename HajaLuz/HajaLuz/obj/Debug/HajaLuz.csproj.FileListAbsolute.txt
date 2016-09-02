@@ -88,3 +88,4 @@ C:\Users\User\Documents\GitHub\HajaLuz\HajaLuz\HajaLuz\obj\Debug\android\assets\
 C:\Users\User\Documents\GitHub\HajaLuz\HajaLuz\HajaLuz\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
 C:\Users\User\Documents\GitHub\HajaLuz\HajaLuz\HajaLuz\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\User\Documents\GitHub\HajaLuz\HajaLuz\HajaLuz\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\User\Documents\GitHub\HajaLuz\HajaLuz\HajaLuz\obj\Debug\HajaLuz.csprojResolveAssemblyReference.cache
