@@ -99,8 +99,6 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "HajaLuz.dll" comes first in this list. */
 		"HajaLuz.dll",
-		"Java.Interop.dll",
-		"System.ServiceModel.Internals.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

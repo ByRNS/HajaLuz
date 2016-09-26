@@ -3,13 +3,12 @@ using Android.Widget;
 using Android.OS;
 using System;
 using Android.Content.PM;
-using Android.Graphics;
 using Android.Content.Res;
 
 namespace HajaLuz
 {
 	[Activity(
-		MainLauncher = true, 
+		MainLauncher = true,
 		ScreenOrientation = ScreenOrientation.Portrait)]
 	public class MainActivity : Activity
 	{
@@ -17,7 +16,7 @@ namespace HajaLuz
 
 		LinearLayout linearLayout;
 		ToggleButton tbtInterruptor;
-		
+
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
@@ -40,21 +39,22 @@ namespace HajaLuz
 
 		public void LigaDesliga(object sender, EventArgs e)
 		{
-			var background = new Background(Resources);
-
-			var toggleDoSender = (ToggleButton) sender;
+			var background = new Background(Resources, linearLayout, tbtInterruptor);
+			var toggleDoSender = (ToggleButton)sender;
 
 			if (toggleDoSender.Checked)
 			{
 				if (flash.Liga())
-					background.ImagemInterruptorLigado(linearLayout, tbtInterruptor);
-				else
-					background.MudarCor(linearLayout, tbtInterruptor);
+					background.ImagemInterruptorLigado();
+				else {
+					var strDesligar = Resources.GetString(Resource.String.desligar);
+					background.MudarCor(strDesligar);
+				}
 			}
 			else
 			{
 				flash.Desliga();
-				background.ImagemInterruptorDesligado(linearLayout, tbtInterruptor);
+				background.ImagemInterruptorDesligado();
 			}
 		}
 	}

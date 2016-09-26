@@ -72,17 +72,32 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\haja_luz.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\haja_luz.png" />
     <AndroidResource Include="Resources\values\Color.axml" />
-    <AndroidResource Include="Resources\drawable\interruptor_completo_ligado.png" />
     <AndroidResource Include="Resources\drawable\interruptor_ligado.png" />
-    <AndroidResource Include="Resources\drawable\capa_interruptor_desligado.png.png" />
-    <AndroidResource Include="Resources\drawable\capa_interruptor_ligado.png" />
-    <AndroidResource Include="Resources\drawable\interruptor_completo_deligado.png" />
     <AndroidResource Include="Resources\drawable\interruptor_desligado.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\interruptor_desligado.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\interruptor_ligado.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\interruptor_desligado.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\interruptor_ligado.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\interruptor_desligado.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\interruptor_ligado.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\interruptor_desligado.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\interruptor_desligado.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\interruptor_ligado.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\interruptor_ligado.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\capa_interruptor_desligado.png.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\capa_interruptor_ligado.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\capa_interruptor_desligado.png.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\capa_interruptor_ligado.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
     <Folder Include="Activity\" />
     <Folder Include="Model\" />
+    <Folder Include="Resources\drawable-hdpi\" />
+    <Folder Include="Resources\drawable-mdpi\" />
+    <Folder Include="Resources\drawable-xhdpi\" />
+    <Folder Include="Resources\drawable-xxhdpi\" />
+    <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

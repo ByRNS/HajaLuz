@@ -70,16 +70,10 @@ namespace HajaLuz
 			public const int capa_interruptor_ligado = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int interruptor_completo_deligado = 2130837506;
+			public const int interruptor_desligado = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int interruptor_completo_ligado = 2130837507;
-			
-			// aapt resource value: 0x7f020004
-			public const int interruptor_desligado = 2130837508;
-			
-			// aapt resource value: 0x7f020005
-			public const int interruptor_ligado = 2130837509;
+			public const int interruptor_ligado = 2130837507;
 			
 			static Drawable()
 			{
@@ -148,11 +142,14 @@ namespace HajaLuz
 			// aapt resource value: 0x7f060000
 			public const int app_name = 2131099648;
 			
-			// aapt resource value: 0x7f060003
-			public const int by_rns = 2131099651;
+			// aapt resource value: 0x7f060004
+			public const int by_rns = 2131099652;
 			
 			// aapt resource value: 0x7f060002
 			public const int desligado = 2131099650;
+			
+			// aapt resource value: 0x7f060003
+			public const int desligar = 2131099651;
 			
 			// aapt resource value: 0x7f060001
 			public const int ligado = 2131099649;

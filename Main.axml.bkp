@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnlBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/capa_interruptor_desligado"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+    <ToggleButton
+        android:layout_width="80dp"
+        android:layout_height="180dp"
+        android:id="@+id/tbtInterruptor"
+        android:background="@drawable/interruptor_desligado"
+        android:layout_gravity="center_horizontal"
+        android:textOff=""
+        android:textOn="" />
+</LinearLayout>
