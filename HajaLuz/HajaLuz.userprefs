@@ -1,11 +1,11 @@
-﻿<Properties GitUserInfo="UsingMD" StartupItem="HajaLuz\HajaLuz.csproj">
+﻿<Properties StartupConfiguration="{EF667FB0-6EDF-4081-A7BB-861E25248345}|Default" GitUserInfo="UsingMD">
   <MonoDevelop.Ide.ItemProperties.HajaLuz AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Black.NoTitleBar" PreferredExecutionTarget="Android.Xamarin_Android_API_17" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="HajaLuz\Model\Background.cs">
     <Files>
       <File FileName="HajaLuz\Model\Background.cs" Line="18" Column="18" />
       <File FileName="HajaLuz\Activity\MainActivity.cs" Line="6" Column="16" />
