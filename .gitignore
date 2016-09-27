@@ -1,5 +1,5 @@
 *.suo
 HajaLuz/HajaLuz.userprefs
-HajaLuz/HajaLuz/obj/Debug/Schemas/16/android-layout-xml.xsd
-HajaLuz/HajaLuz/obj/Debug/Schemas/16/schemas.android.com.apk.res.android.xsd
+/HajaLuz/HajaLuz/obj/
+/HajaLuz/HajaLuz/bin/
 *.userprefs
