@@ -1,4 +1,4 @@
-<table>
+<table align="center">
 	<tr>
 		<td><img src="https://github.com/RonildoSouza/HajaLuz/blob/master/Design/icone/mdpi/haja_luz.png" /></td>
 		<td><h4>Download da Aplicação</h4></td>
