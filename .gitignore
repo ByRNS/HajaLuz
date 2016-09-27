@@ -1,5 +1,6 @@
 *.suo
 HajaLuz/HajaLuz.userprefs
-/HajaLuz/HajaLuz/obj/
-/HajaLuz/HajaLuz/bin/
+HajaLuz/HajaLuz/obj/*
+HajaLuz/HajaLuz/bin/Debug/*
+HajaLuz/HajaLuz/bin/Release/*
 *.userprefs
