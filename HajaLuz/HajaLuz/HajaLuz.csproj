@@ -59,7 +59,6 @@
     <Compile Include="Model\Background.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>
@@ -72,8 +71,6 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\haja_luz.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\haja_luz.png" />
     <AndroidResource Include="Resources\values\Color.axml" />
-    <AndroidResource Include="Resources\drawable\interruptor_ligado.png" />
-    <AndroidResource Include="Resources\drawable\interruptor_desligado.png" />
     <AndroidResource Include="Resources\drawable-hdpi\interruptor_desligado.png" />
     <AndroidResource Include="Resources\drawable-hdpi\interruptor_ligado.png" />
     <AndroidResource Include="Resources\drawable-mdpi\interruptor_desligado.png" />
@@ -84,13 +81,23 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\interruptor_desligado.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\interruptor_ligado.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\interruptor_ligado.png" />
-    <AndroidResource Include="Resources\drawable-mdpi\capa_interruptor_desligado.png.png" />
     <AndroidResource Include="Resources\drawable-mdpi\capa_interruptor_ligado.png" />
-    <AndroidResource Include="Resources\drawable-xxxhdpi\capa_interruptor_desligado.png.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\capa_interruptor_ligado.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\capa_interruptor_desligado.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\capa_interruptor_desligado.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\capa_interruptor_desligado.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\capa_interruptor_ligado.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\interruptor_desligado.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\interruptor_ligado.png" />
+    <AndroidResource Include="Resources\mipmap-ldpi\haja_luz.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\capa_interruptor_desligado.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\capa_interruptor_ligado.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\capa_interruptor_desligado.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\capa_interruptor_ligado.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\capa_interruptor_desligado.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\capa_interruptor_ligado.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\drawable\" />
     <Folder Include="Activity\" />
     <Folder Include="Model\" />
     <Folder Include="Resources\drawable-hdpi\" />
@@ -100,4 +107,15 @@
     <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <Policies>
+          <VersionControlPolicy inheritsSet="Mono">
+            <CommitMessageStyle Header="" Indent="" FirstFilePrefix="* " FileSeparator=":&#xA;* " LastFilePostfix=": " LineAlign="2" InterMessageLines="1" IncludeDirectoryPaths="False" Wrap="True" />
+          </VersionControlPolicy>
+        </Policies>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
 </Project>
