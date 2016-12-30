@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{EF667FB0-6EDF-4081-A7BB-861E25248345}|Default" GitUserInfo="UsingMD">
-  <MonoDevelop.Ide.ItemProperties.HajaLuz AndroidDesignerPreferredDevice="Galaxy Nexus" AndroidDesignerPreferredTheme="Theme.NoTitleBar" PreferredExecutionTarget="Android.169.254.109.177:5555" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.HajaLuz AndroidDesignerPreferredDevice="Nexus 10" AndroidDesignerPreferredTheme="Theme.NoTitleBar" PreferredExecutionTarget="Android.Xamarin_Android_API_17" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
