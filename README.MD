@@ -1,3 +1,4 @@
+![HajaLuz](images/Design/icone/mdpi/haja_luz.png)
 <table>
 	<tr>
 		<td>![HajaLuz](images/Design/icone/mdpi/haja_luz.png)</td>
