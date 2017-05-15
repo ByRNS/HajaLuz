@@ -1,7 +1,7 @@
 ![HajaLuz](Design/icone/mdpi/haja_luz.png)
 <table>
 	<tr>
-		<td>![HajaLuz](Design/icone/mdpi/haja_luz.png)</td>
+		![HajaLuz](Design/icone/mdpi/haja_luz.png)
 		<td><h4>Download da Aplicação</h4></td>
 	</tr>
 	<tr>
