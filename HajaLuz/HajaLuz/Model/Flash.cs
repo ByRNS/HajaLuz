@@ -3,49 +3,43 @@ using Android.Hardware;
 
 namespace HajaLuz
 {
-	class Flash
-	{
-		PackageManager packageManager;
-		Camera camera;
+    public class Flash
+    {
+        PackageManager _packageManager;
+        Camera _camera;
 
-		public Flash(PackageManager packageManager)
-		{
-			this.packageManager = packageManager;
-		}
+        public Flash(PackageManager packageManager)
+        {
+            _packageManager = packageManager;
+        }
 
-		public bool TemFlash
-		{
-			get
-			{
-				return packageManager.HasSystemFeature(PackageManager.FeatureCameraFlash);
-			}
-		}
+        public bool TemFlash { get { return _packageManager.HasSystemFeature(PackageManager.FeatureCameraFlash); } }
 
-		public bool Liga()
-		{
-			if (TemFlash)
-			{
-				camera = Camera.Open();
+        public bool Liga()
+        {
+            if (TemFlash)
+            {
+                _camera = Camera.Open();
 
-				var parametros = camera.GetParameters();
-				parametros.FlashMode = Camera.Parameters.FlashModeTorch;
+                var parametros = _camera.GetParameters();
+                parametros.FlashMode = Camera.Parameters.FlashModeTorch;
 
-				camera.SetParameters(parametros);
-				camera.StartPreview();
+                _camera.SetParameters(parametros);
+                _camera.StartPreview();
 
-				return true;
-			}
-			return false;
-		}
+                return true;
+            }
+            return false;
+        }
 
-		public void Desliga()
-		{
-			if (camera != null && TemFlash.Equals(true))
-			{
-				camera.StopPreview();
-				camera.Release();
-				camera = null;
-			}
-		}
-	}
+        public void Desliga()
+        {
+            if (_camera != null && TemFlash.Equals(true))
+            {
+                _camera.StopPreview();
+                _camera.Release();
+                _camera = null;
+            }
+        }
+    }
 }
