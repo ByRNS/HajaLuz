@@ -1,5 +1,7 @@
 ﻿using Android.Content.Res;
 using Android.Graphics;
+using Android.Support.V4.Content.Res;
+using Android.Util;
 using Android.Widget;
 
 namespace HajaLuz
@@ -21,19 +23,20 @@ namespace HajaLuz
         {
             _linearLayout.SetBackgroundColor(Color.White);
             _tbtInterruptor.Text = desligar;
+            _tbtInterruptor.SetTextSize(ComplexUnitType.Dip, 25f);
             _tbtInterruptor.SetBackgroundColor(Color.White);
         }
 
         public void ImagemInterruptorLigado()
         {
-            _linearLayout.Background = _resources.GetDrawable(Resource.Drawable.capa_interruptor_ligado);
-            _tbtInterruptor.Background = _resources.GetDrawable(Resource.Drawable.interruptor_ligado);
+            _linearLayout.Background = ResourcesCompat.GetDrawable(_resources, Resource.Drawable.capa_interruptor_ligado, null);
+            _tbtInterruptor.Background = ResourcesCompat.GetDrawable(_resources, Resource.Drawable.interruptor_ligado, null);
         }
 
         public void ImagemInterruptorDesligado()
         {
-            _linearLayout.Background = _resources.GetDrawable(Resource.Drawable.capa_interruptor_desligado);
-            _tbtInterruptor.Background = _resources.GetDrawable(Resource.Drawable.interruptor_desligado);
+            _linearLayout.Background = ResourcesCompat.GetDrawable(_resources, Resource.Drawable.capa_interruptor_desligado, null);
+            _tbtInterruptor.Background = ResourcesCompat.GetDrawable(_resources, Resource.Drawable.interruptor_desligado, null);
             _tbtInterruptor.Text = "";
         }
     }
