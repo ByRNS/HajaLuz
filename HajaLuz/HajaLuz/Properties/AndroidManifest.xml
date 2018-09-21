@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="br.com.byrns.haja_luz" android:versionCode="1" android:versionName="1.0.0" android:installLocation="auto">
-	<uses-sdk android:minSdkVersion="16" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="br.com.byrns.haja_luz" android:versionName="1.0.2" android:installLocation="auto" android:versionCode="4">
+	<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="29" />
 	<uses-permission android:name="android.permission.CAMERA" />
 	<application android:allowBackup="true" android:icon="@mipmap/haja_luz" android:roundIcon="@mipmap/haja_luz_round" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar"></application>
 </manifest>
